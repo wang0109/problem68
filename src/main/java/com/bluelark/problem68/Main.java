@@ -1,4 +1,4 @@
-package com.bluelark.problem68;
+package com.github.wang0109;
 
 import org.apache.commons.collections4.CollectionUtils;
 
