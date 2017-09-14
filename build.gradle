@@ -1,0 +1,23 @@
+group 'com.bluelark.leetcode'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.0'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+mainClassName = "com.bluelark.problem68.Main"
+run {
+    args += ''
+}
