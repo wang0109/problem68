@@ -21,6 +21,6 @@ dependencies {
 
 
 //mainClassName = "com.github.wang0109.Main"
-run {
-    args += ''
-}
+//run {
+//    args += ''
+//}
